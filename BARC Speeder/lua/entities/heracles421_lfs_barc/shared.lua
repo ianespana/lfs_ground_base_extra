@@ -23,8 +23,8 @@ ENT.SeatPos = Vector(-25,0,38)
 ENT.SeatAng = Angle(0,-90,5)
 
 ENT.MaxHealth = 2000
-ENT.MoveSpeed = 750
-ENT.BoostSpeed = 1000
+ENT.MoveSpeed = 80
+ENT.BoostSpeed = 160
 ENT.HeightOffset = -15
 ENT.IgnoreWater = false
 

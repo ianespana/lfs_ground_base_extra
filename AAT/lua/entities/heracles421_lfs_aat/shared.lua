@@ -27,8 +27,8 @@ ENT.SeatPos = Vector(120,0,80)
 ENT.SeatAng = Angle(0,-90,0)
 
 ENT.MaxHealth = 10000
-ENT.MoveSpeed = 60
-ENT.BoostSpeed = 150
+ENT.MoveSpeed = 30
+ENT.BoostSpeed = 45
 ENT.LerpMultiplier = 0.8
 ENT.HeightOffset = -10
 ENT.IgnoreWater = false
@@ -79,7 +79,7 @@ sound.Add( {
 } )
 
 ENT.ShadowParams = {
-	secondstoarrive		= 0.5,
+	secondstoarrive		= 0.001,
 	maxangular			= 25,
 	maxangulardamp		= 100000,
 	maxspeed			= 1000000,
