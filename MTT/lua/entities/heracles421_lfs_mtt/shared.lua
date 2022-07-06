@@ -35,6 +35,9 @@ ENT.IgnoreWater = false
 ENT.HideDriver = true
 ENT.AutomaticFrameAdvance = true
 
+ENT.TraceSubdivision = 2
+ENT.TraceDistance = 300
+
 sound.Add( {
 	name = "GALACTICA_MTT_FIRE",
 	channel = CHAN_WEAPON,
